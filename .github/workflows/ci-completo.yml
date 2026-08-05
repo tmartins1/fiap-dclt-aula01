@@ -61,7 +61,6 @@ jobs:
       - name: 📦 Instalar dependências
         working-directory: app
         run: npm ci
-        run: npm test
       
       - name: 🧪 Executar testes
         working-directory: app
